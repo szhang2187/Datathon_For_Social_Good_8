@@ -1,0 +1,13 @@
+zip,county,population,median_income,missing
+94124,San Francisco,34475,80509.0,Pharmacy
+94305,Santa Clara,18509,83088.0,Pharmacy
+94572,Contra Costa,8976,91484.0,"Pharmacy, Bank"
+94599,Napa,3348,80372.0,Pharmacy
+94038,San Mateo,2683,99680.0,"Grocery, Pharmacy, Bank"
+94130,San Francisco,2429,93269.0,"Pharmacy, Bank"
+94514,Contra Costa,1953,76511.0,"Pharmacy, Clinic/hospital, Bank"
+94511,Contra Costa,1864,74972.0,"Grocery, Pharmacy, Bank"
+95421,Sonoma,1570,78906.0,"Grocery, Pharmacy, Bank"
+94924,Marin,1372,101458.0,"Pharmacy, Bank"
+95462,Sonoma,1058,85536.0,"Pharmacy, Bank"
+94937,Marin,1009,78281.0,"Pharmacy, Clinic/hospital, Bank"

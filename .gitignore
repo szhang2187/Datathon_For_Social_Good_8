@@ -1,8 +1,6 @@
-# Raw and row-level data stay on the shared Drive, not in the repo.
-# zip_table.csv (ZIP-level aggregates) and results/*.csv are small and safe to commit.
+# Raw Google Maps files are too big for GitHub (over 100 MB) and stay on the shared Drive.
+# The processed CSVs at the repo root (places_clean, zip_table, category_map) are committed.
 data/raw/
-data/processed/places_clean.csv
-data/processed/reviews_low.csv
 *.zip
 
 # Python / Jupyter

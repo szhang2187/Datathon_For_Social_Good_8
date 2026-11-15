@@ -69,4 +69,26 @@ The full methodology and limitations are at the end of the notebook. Outputs:
 - `figures/01_availability_by_quintile.png`, `02_has_none_by_quintile.png`, `03_ratings_by_quintile.png`, `04_rating_gap_q5_minus_q1.png`, `05_complaint_themes.png`
 - `results/*.csv` (one table per chart, ready for Tableau) and `results/key_findings.md` (slide-ready sentences with numbers)
 
-**Findings:** [paste from `results/key_findings.md` after running notebook 03 on the real data]
+### Findings
+
+Q1 = lowest-income fifth of ZIPs (median household income $86,694), Q5 = highest ($222,986), about 52 ZIPs each. "Clear" means Holm-adjusted p < 0.05 or a 95% interval that excludes 0. Full numbers: `results/key_findings.md`.
+
+**Availability (sites per 10,000 residents, median ZIP)**
+- **Groceries are more common in lower-income ZIPs:** 3.8 per 10k in Q1 vs. 1.5 in Q5 (Spearman rho −0.41, clear). But Q1 groceries are mostly small independents (13% chains vs. 42% in Q5) with far fewer reviews (median 48 vs. 358). The count measures stores, not full-service supermarkets.
+- **Food banks are concentrated where need is higher:** 0.34 per 10k in Q1 vs. 0 in Q5 (rho −0.34, clear). 38% of Q1 ZIPs have none, vs. 63% of Q5 ZIPs.
+- **Pharmacies, clinics, banks, bus stops and schools show no clear income trend** after adjustment. Banks go from 1.1 (Q1) to 2.3 (Q5) per 10k, and clinics from 20 to 33, but neither is statistically clear (p 0.20 and 0.07).
+
+**ZIPs with none of a service**
+- There is no income trend in which ZIPs lack a grocery, pharmacy, clinic or bank. For example, 23% of Q1 ZIPs vs. 29% of Q5 ZIPs have no pharmacy.
+- 12 of 52 Q1 ZIPs lack at least one of the four (`results/02_q1_zips_missing_services.csv`).
+
+**Ratings (places with 10+ reviews)**
+- **Clinics in lower-income ZIPs rate lower:** mean 4.35 in Q1 vs. 4.65 in Q5 (gap +0.29, 95% CI +0.19 to +0.41). 37% of Q1 clinics are low-rated vs. 17% of Q5 clinics. The gap holds with chains removed (+0.30) and with a 25+ review cutoff (+0.25).
+- **Pharmacies in higher-income ZIPs rate lower** (3.84 in Q1 vs. 3.41 in Q5), but the gap disappears for independent pharmacies (+0.06). It comes from chain mix: chain pharmacies, which rate low, are 47% of Q1 pharmacies vs. 70% of Q5.
+- **Groceries and banks show no rating gap** (+0.01 and −0.06 stars).
+
+**Context:** Q1 ZIPs are 39% Hispanic and 11% Black (vs. 10% and 2% in Q5), and 16% of Q1 households have no car (vs. 6%). These patterns are associations with a bundle of neighborhood traits, not with income alone.
+
+**Not yet run:** the clinic-complaint comparison needs `reviews_low.csv`, which isn't in the repo yet. Notebook 03 skips that section until the file is added.
+
+**Data caveat:** the scrape has only 782 pharmacy sites for 7.6 million residents, which looks low, so pharmacy coverage may be incomplete. The coverage check above is still pending.
