@@ -1,0 +1,88 @@
+category_lc,service_type
+doctor,clinic/hospital
+medical clinic,clinic/hospital
+clinic,clinic/hospital
+urgent care center,clinic/hospital
+urgent care centre,clinic/hospital
+walk-in clinic,clinic/hospital
+free clinic,clinic/hospital
+emergency clinic,clinic/hospital
+emergency care physician,clinic/hospital
+medical center,clinic/hospital
+hospital,clinic/hospital
+general hospital,clinic/hospital
+children's hospital,clinic/hospital
+university hospital,clinic/hospital
+government hospital,clinic/hospital
+private hospital,clinic/hospital
+veterans hospital,clinic/hospital
+military hospital,clinic/hospital
+maternity hospital,clinic/hospital
+internist,clinic/hospital
+family practice physician,clinic/hospital
+pediatrician,clinic/hospital
+pediatric clinic,clinic/hospital
+obstetrician-gynecologist,clinic/hospital
+women's health clinic,clinic/hospital
+children policlinic,clinic/hospital
+optometrist,clinic/hospital
+physical therapist,clinic/hospital
+physical therapy clinic,clinic/hospital
+dentist,clinic/hospital
+dental clinic,clinic/hospital
+pediatric dentist,clinic/hospital
+psychologist,clinic/hospital
+psychotherapist,clinic/hospital
+psychiatrist,clinic/hospital
+mental health service,clinic/hospital
+mental health clinic,clinic/hospital
+marriage or relationship counselor,clinic/hospital
+counselor,clinic/hospital
+family counselor,clinic/hospital
+mental hospital,clinic/hospital
+psychiatric hospital,clinic/hospital
+addiction treatment center,clinic/hospital
+grocery store,grocery
+supermarket,grocery
+asian grocery store,grocery
+indian grocery store,grocery
+mexican grocery store,grocery
+gourmet grocery store,grocery
+japanese grocery store,grocery
+korean grocery store,grocery
+filipino grocery store,grocery
+european grocery store,grocery
+italian grocery store,grocery
+russian grocery store,grocery
+kosher grocery store,grocery
+american grocery store,grocery
+eastern european grocery store,grocery
+chinese supermarket,grocery
+japanese supermarket,grocery
+discount supermarket,grocery
+asian grocery shop,grocery
+gourmet grocery shop,grocery
+indian grocery shop,grocery
+produce market,grocery
+bank,bank
+credit union,bank
+federal credit union,bank
+cooperative bank,bank
+trust bank,bank
+private sector bank,bank
+elementary school,school
+middle school,school
+high school,school
+primary school,school
+secondary school,school
+k-12 school,school
+charter school,school
+catholic school,school
+senior high school,school
+girls' high school,school
+boys' high school,school
+pharmacy,pharmacy
+homeopathic pharmacy,pharmacy
+food bank,food bank
+foodbank,food bank
+bus stop,bus stop
